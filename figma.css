@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.navbar{
+    display: flex;
+    padding: 10px 95px;
+    align-items: center;
+    height: 100px;
+}
+.nav-left{
+    display: flex;
+    flex: 2;
+    cursor: pointer;
+}
+.nav-left h1{
+    color: #2F2E2E;
+font-family: Barlow;
+font-size: 42px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.nav-right{
+    display: flex;
+    flex: 3;
+    justify-content: space-between;
+}
+.nav-right h5{
+    color: #2F2E2E;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+cursor: pointer;
+}
+
+.main-wrap{
+    background-image: url(./assets/pexels-expect-best-323780\ 1.png);
+    height: 779px;
+    background-size: cover;
+    background-repeat: no repeat;
+    background-position: center;
+    padding-top: 150px;
+}
+.main-wrap-tag{
+    border: 1px solid #F4F6F5;
+    background-color: #F4F6F5;
+    width: 691px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0.8;
+    padding-left: 95px;
+}
+.main-wrap-tag h1{
+    font-size: 51px;
+    color: #2F2E2E;
+    font-weight: 900;
+    font-family: playfair display;
+    padding-bottom: 15px;
+}
+.main-wrap-tag p{
+    font-size: 32px;
+    color: #2F2E2E;
+    font-weight: 200;
+}
+container{
+    width: 90%;
+    margin: 0 auto;
+}
+.our-services{
+    height: 384px;
+    background-color: #254D4D33;
+}
+.our-services h1{
+    padding-right: 60px;
+    padding-top: 15px;
+    font-family: playfair display;
+    font-weight: 900;
+    font-size: 51px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.our-services-flex{
+    display: flex;
+}
+.our-services-planning{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-left: 95px;
+}
+.our-services-planning img, .our-services-interior img, .our-services-exterior img{
+    width: 103px;
+    height: 103px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.our-services-planning h4, .our-services-interior h4, .our-services-exterior h4{
+    font-family: playfair display;
+    font-weight: 900;
+    font-size: 27px;
+    padding-left: 20px;
+    padding-bottom: 8px;
+}
+.our-services-planning p, .our-services-interior p, .our-services-exterior p{
+    font-family: playfair display;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.our-services-interior{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.our-services-exterior{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.about-us{
+    display: flex;
+        margin-top: 70px;
+    margin-bottom: 70px;
+}
+.about-us-img{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    width: 735;
+height: 571;
+top: 1387px;
+padding-left: 95px;
+opacity: 1;
+
+}
+.about-us-right{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-us-right h1{
+    font-family: Playfair Display;
+font-weight: 900;
+font-size: 51px;
+line-height: 100%;
+letter-spacing: 0%;
+padding-bottom: 25px;
+}
+.about-us-right p{
+    font-family: Playfair Display;
+font-weight: 400;
+font-size: 31px;
+line-height: 100%;
+letter-spacing: 0%;
+padding-bottom: 25px;
+}
+.about-us-right a{
+    font-family: Inter;
+font-weight: 600;
+font-size: 24px;
+text-decoration: none;
+line-height: 100%;
+letter-spacing: 0%;
+color: black;
+}
+.our-projects{
+    display: flex;
+    margin-bottom: 60px;
+}
+.our-projects-left{
+    flex: 2;
+    padding-left: 95px;
+}
+.our-projects-right{
+    margin-top: 10px;
+    flex: 3;
+    display: flex;
+    justify-content: space-evenly;
+}
+.our-projects-left h1{
+    font-family: Playfair Display;
+font-weight: 900;
+font-size: 51px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+.our-projects-right h5{
+    font-family: Inter;
+font-weight: 600;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.picturesa{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.picture1{
+    margin-left: 95px;
+}
+.picture2{
+    margin-right: 95px;
+}
+.picture3{
+    margin-right: 120px;
+}
+.picture1 p, .picture2 p, .picture3 p{
+    margin-top: 15px;
+    font-family: Playfair Display;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.picturesb{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.picture4{
+    margin-left: 95px;
+}
+.picture5{
+    margin-right: 95px;
+}
+.picture6{
+    margin-right: 120px;
+}
+.picture4 p, .picture5 p, .picture6 p{
+    margin-top: 15px;
+    font-family: Playfair Display;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+}
+.testimonial-info{
+    display: flex;
+    margin-bottom: 70px;
+}
+.testimonial-info-left{
+    flex: 1;
+    display: flex;
+
+}
+.testimonial-info-left-tag{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.testimonial-info-right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.testimonial-info-right-tag{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.testimonial h1{
+    font-family: Playfair Display;
+font-weight: 900;
+font-size: 51px;
+margin-bottom: 70px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+}
+.testimonial-info-left-tag h3, .testimonial-info-right-tag h3{
+    font-family: Playfair Display;
+font-weight: 700;
+font-size: 28px;
+line-height: 100%;
+letter-spacing: 0%;
+margin-bottom: 15px;
+}
+.testimonial-info-left-tag p, .testimonial-info-right-tag p{
+    font-family: Playfair Display;
+font-weight: 400;
+font-size: 17px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+.testimonial-info-left-img, .testimonial-info-right-img{
+    margin-right: 15px;
+
+}
+.testimonial-info-left-img{
+    padding-left: 95px;
+}
+.testimonial-dots{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+.testimonial-dots h1{
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 8px;
+}
+.footer{
+    background-color: #2E2F32;
+
+}
+.container{
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.archiweb{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.articles{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.links{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.location{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+.archiweb h1{
+    font-family: Barlow;
+font-weight: 600;
+font-size: 42px;
+padding-bottom: 15px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #FAFAFA;
+}
+.archiweb p{
+    font-family: Inter;
+font-weight: 400;
+font-size: 17px;
+padding-bottom: 60px;
+line-height: 29px;
+letter-spacing: 0%;
+color: #FAFAFA;
+}
+.footer-icons{
+    display: flex;
+    cursor: pointer;
+}
+.footer-icons img{
+    padding-right: 25px;
+}
+.articles h4, .links h4, .location h4{
+    font-family: Inter;
+font-weight: 900;
+font-size: 24px;
+padding-bottom: 25px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #FAFAFA;
+}
+.articles p, .links p, .location p{
+    font-family: Inter;
+font-weight: 400;
+font-size: 17px;
+color: #FAFAFA;
+line-height: 100%;
+letter-spacing: 0%;
+}
